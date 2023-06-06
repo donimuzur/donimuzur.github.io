@@ -1145,14 +1145,26 @@ section {
   transition: 0.4s;
   border-radius: 50px;
 }
-
+ 
 .btn.resume:hover {
   background: #0678e3;
 }
 
+.btn.whatsapp {
+  background: #25d366;
+  border: 0;
+  padding: 10px 35px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+.btn.whatsapp:hover {
+  background: #16e662;
+}
+
 
 .btn.email {
-  background: #a8a8a8;
+  background: #686868;
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -1161,7 +1173,7 @@ section {
 }
 
 .btn.email:hover {
-  background: #cecece;
+  background: #68625c;
 }
 @keyframes animate-loading {
   0% {
