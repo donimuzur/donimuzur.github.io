@@ -1149,6 +1149,20 @@ section {
 .btn.resume:hover {
   background: #0678e3;
 }
+
+
+.btn.email {
+  background: #a8a8a8;
+  border: 0;
+  padding: 10px 35px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+
+.btn.email:hover {
+  background: #cecece;
+}
 @keyframes animate-loading {
   0% {
     transform: rotate(0deg);
